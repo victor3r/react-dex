@@ -2,7 +2,7 @@
 
 Live: https://react-dex-frontend.herokuapp.com/
 
-##Features
+## Features
 
 - **React Js** — A JavaScript library for building user interfaces
 - **[PokeAPI](https://pokeapi.co/)**  — A RESTful API for Pokémon
