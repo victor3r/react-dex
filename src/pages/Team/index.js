@@ -19,7 +19,7 @@ export default function Team() {
   return (
     <>
       <Header />
-      <div className="pokemons-container">
+      <div className="pokemon-team-container">
         <ul>
           {pokemonsIndex.map(index => <PokemonCard
             teamPokemon={pokemonTeam => setTeamPokemon(pokemonTeam)}

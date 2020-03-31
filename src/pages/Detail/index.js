@@ -232,11 +232,15 @@ export default function Detail(props) {
             </div>
             <div className="profile-content">
               <div className="profile-content-left">
-                <div className="profile-stats">Height: {height} cm</div>
-                <div className="profile-stats">Weight: {weight} kg</div>
-                <div className="profile-stats">Catch Rate: {catchRate}%</div>
-                <div className="profile-stats-bar">
-                  Gender Ratio: <Line
+                <div className="profile-stats"><div className="property-left">
+                  Height:</div>{height} cm</div>
+                <div className="profile-stats"><div className="property-left">
+                  Weight:</div>{weight} kg</div>
+                <div className="profile-stats"><div className="property-left">
+                  Catch Rate:</div>{catchRate}%</div>
+                <div className="profile-stats">
+                  <div className="property-left">
+                    Gender Ratio:</div><Line
                     percent={genderRatioFemale}
                     strokeWidth="6"
                     trailWidth="6"
@@ -248,10 +252,10 @@ export default function Detail(props) {
                 </div>
               </div>
               <div className="profile-content-right">
-                <div className="profile-stats">Habitat: {habitat}</div>
-                <div className="profile-stats">Generation: {generation}</div>
-                <div className="profile-stats">Growth Rate: {growthRate}</div>
-                <div className="profile-stats">Abilities: {abilities}</div>
+                <div className="profile-stats">Habitat: <div>{habitat}</div></div>
+                <div className="profile-stats">Generation: <div>{generation}</div></div>
+                <div className="profile-stats">Growth Rate: <div>{growthRate}</div></div>
+                <div className="profile-stats">Abilities: <div>{abilities}</div></div>
               </div>
             </div>
           </div>

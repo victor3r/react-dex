@@ -1,18 +1,18 @@
-.pokemons-container {
+.pokemon-team-container {
   width: 100%;
   max-width: 1180px;
   padding: 0 30px;
   margin: 32px auto;
 }
 
-.pokemons-container ul {
+.pokemon-team-container ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   list-style: none;
 }
 
-.pokemons-container ul li {
+.pokemon-team-container ul li {
   background: #fff;
   border-radius: 8px;
   flex-direction: column;
@@ -22,12 +22,12 @@
   transition: all 0.2s;
 }
 
-.pokemons-container ul li:hover {
+.pokemon-team-container ul li:hover {
   box-shadow: 1px 1px 10px #333;
   color: #ef5350;
 }
 
-.pokemons-container ul a {
+.pokemon-team-container ul a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.pokemons-container ul li .card-header {
+.pokemon-team-container ul li .card-header {
   background: #f1f1f1;
   width: 100%;
   height: 50px;
@@ -50,13 +50,13 @@
   padding-right: 25px;
 }
 
-.pokemons-container .actions {
+.pokemon-team-container .actions {
   display: flex;
   justify-content: space-between;
   margin: 40px 0;
 }
 
-.pokemons-container .actions button {
+.pokemon-team-container .actions button {
   padding: 10px;
   border-radius: 5px;
   border: 0;
@@ -66,17 +66,37 @@
   font-weight: bold;
 }
 
-.pokemons-container .actions button[disabled] {
+.pokemon-team-container .actions button[disabled] {
   opacity: 0.5;
   cursor: default;
 }
 
-.pokemons-container .actions button:hover {
+.pokemon-team-container .actions button:hover {
   opacity: 0.7;
 }
 
-.pokemons-container .actions button[disabled]:hover {
+.pokemon-team-container .actions button[disabled]:hover {
   opacity: 0.5;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  color: #ef5350;
+  width: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border: 1px solid #ef5350;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.action-button:hover {
+  color: #fff;
+  background: #ef5350;
 }
 
 span {
@@ -84,14 +104,18 @@ span {
   font-size: 18px;
 }
 
+.card-header .action-button img {
+  height: 20px;
+}
+
 @media(max-width:900px) {
-  .pokemons-container ul {
+  .pokemon-team-container ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media(max-width:500px) {
-  .pokemons-container ul {
+  .pokemon-team-container ul {
     grid-template-columns: 1fr;
   }
 }
