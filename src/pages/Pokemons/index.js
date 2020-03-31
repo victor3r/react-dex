@@ -43,7 +43,6 @@ export default function Pokemons() {
         <ul>
           {results.map(result => (
             <PokemonCard
-              name={result.name}
               index={result.url.split('/')[6]}
               key={result.name}
             />

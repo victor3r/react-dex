@@ -1,0 +1,97 @@
+.pokemons-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.pokemons-container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  list-style: none;
+}
+
+.pokemons-container ul li {
+  background: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  cursor: pointer;
+  display: flex;
+  height: 230px;
+  transition: all 0.2s;
+}
+
+.pokemons-container ul li:hover {
+  box-shadow: 1px 1px 10px #333;
+  color: #ef5350;
+}
+
+.pokemons-container ul a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  flex: 1;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pokemons-container ul li .card-header {
+  background: #f1f1f1;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #dcdce6;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.pokemons-container .actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.pokemons-container .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #fff;
+  color: #ef5350;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pokemons-container .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.pokemons-container .actions button:hover {
+  opacity: 0.7;
+}
+
+.pokemons-container .actions button[disabled]:hover {
+  opacity: 0.5;
+}
+
+span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media(max-width:900px) {
+  .pokemons-container ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width:500px) {
+  .pokemons-container ul {
+    grid-template-columns: 1fr;
+  }
+}
