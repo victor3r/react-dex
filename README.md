@@ -7,15 +7,12 @@ Live: https://react-dex-frontend.herokuapp.com/
 - **React Js** — A JavaScript library for building user interfaces
 - **[PokeAPI](https://pokeapi.co/)**  — A RESTful API for Pokémon
 
-## 🚀 Getting started
+## 🚀 Getting started with the app
 
-1. Clone this repo using `https://github.com/victor3r/react-dex.git`
+1. Clone this repo using `git clone https://github.com/victor3r/react-dex.git`
 2. Move yourself to the appropriate directory: `cd react-dex`<br />
-
-### Getting started with the web app
-
-1. Run `npm` to install dependencies<br />
-3. Run `npm start` to start the web application
+3. Run `npm install` to install dependencies<br />
+4. Run `npm start` to start the web application
 
 ## 📝 License
 
