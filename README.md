@@ -1,6 +1,8 @@
-# ReáctDex
+<h1 align="center">
+ReáctDex
+</h1>
 
-Live: https://react-dex-frontend.herokuapp.com/
+<p align="center">The repository of a web app that lists all Pokémons, displays details of each and allows you to build your own team</p>
 
 ## 📋 Features
 
