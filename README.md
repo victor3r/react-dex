@@ -4,6 +4,12 @@ ReáctDex
 
 <p align="center">The repository of a web app that lists all Pokémons, displays details of each and allows you to build your own team</p>
 
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-red" alt="License MIT">
+  </a>
+</p>
+
 ## 📋 Features
 
 - **React Js** — A JavaScript library for building user interfaces
