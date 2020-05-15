@@ -19,8 +19,8 @@ ReáctDex
 
 1. Clone this repo using `git clone https://github.com/victor3r/react-dex.git`
 2. Move yourself to the appropriate directory: `cd react-dex`<br />
-3. Create a `.env` file and add the PokeAPI url connection in REACT_APP_API_URL field
-4. Run `npm install` to install dependencies<br />
+3. Run `npm install` to install dependencies<br />
+4. Create a `.env` file and add the PokeAPI url connection in REACT_APP_API_URL field
 5. Run `npm start` to start the web application
 
 ## 📝 License
