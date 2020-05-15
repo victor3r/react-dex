@@ -13,7 +13,7 @@ ReáctDex
 ## 📋 Features
 
 - **React Js** — A JavaScript library for building user interfaces
-- **[PokeAPI](https://pokeapi.co/)**  — A RESTful API for Pokémon
+- **[PokéAPI](https://pokeapi.co/)**  — A RESTful API for Pokémon
 
 ## 🚀 Getting started with the app
 
