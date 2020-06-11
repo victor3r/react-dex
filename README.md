@@ -2,12 +2,17 @@
 ReáctDex
 </h1>
 
-<p align="center">The repository of a web app that lists all Pokémons, displays details of each and allows you to build your own team</p>
+<p align="center">The repository of a web app that lists all Pokémons, displays details of each and allows you to build your own team
+</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License MIT">
   </a>
+</p>
+
+<p align="center">
+  <img alt="ReactDex" src=".github/pokemon.png" width="100%">
 </p>
 
 ## 📋 Features
